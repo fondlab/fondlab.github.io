@@ -71,3 +71,7 @@ section[id], main[id] { scroll-margin-top: 1.25rem; }
   .wrap { width: calc(100% - 2rem); }
   nav { flex-wrap: wrap; gap: .4rem 1rem; }
 }
+
+.language { padding: .25rem .6rem; border: 1px solid var(--line); border-radius: .4rem; text-decoration: none; }
+:lang(zh-Hans) h1, :lang(zh-Hans) h2, :lang(zh-Hans) h3 { letter-spacing: normal; line-height: 1.22; }
+:lang(zh-Hans) h1 { font-size: clamp(2.35rem, 5.25vw, 4.25rem); }
